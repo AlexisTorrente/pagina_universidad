@@ -1,0 +1,146 @@
+@charset "ISO-8859-1";
+
+
+#menuAdmi{
+	background-color:#474747; /*#46468c */
+	color:white;
+	padding:45px 50px;
+}
+
+
+*{
+	padding:0 ;
+	margin:0 ;
+}
+.menuAdmin > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#46468c+23,301f68+53,3f316b+69,0f0e2b+99,0f0e2b+99 */
+background: rgb(70,70,140); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(70,70,140,1) 23%, rgba(48,31,104,1) 53%, rgba(63,49,107,1) 69%, rgba(15,14,43,1) 99%, rgba(15,14,43,1) 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(70,70,140,1) 23%,rgba(48,31,104,1) 53%,rgba(63,49,107,1) 69%,rgba(15,14,43,1) 99%,rgba(15,14,43,1) 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(70,70,140,1) 23%,rgba(48,31,104,1) 53%,rgba(63,49,107,1) 69%,rgba(15,14,43,1) 99%,rgba(15,14,43,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46468c', endColorstr='#0f0e2b',GradientType=1 ); /* IE6-9 */
+
+}
+
+.menuAdmin li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+.menuAdmin  li:last-child {
+  border-right: none;
+}
+
+.menuAdmin li a {
+  display: block; 
+  color: white;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+}
+
+
+
+.menuAdmin > li a:hover:not(.active) {
+    background-color: #111;
+ 	transition: all .3s;
+ 
+}
+
+.active {
+  background-color: #aa0441;
+}
+
+
+
+.menuAdmin li > ul{
+    display:none;
+	position:absolute;
+	min-width:140px;
+    list-style-type: none;
+
+
+}
+
+.menuAdmin li:hover > ul{
+	display:block;
+	transition: all .3s;
+}
+
+/* submenu alumno */
+
+.navalu a{
+  display: block; 
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+
+.navalu li{
+	background-color:#575796;
+
+}
+
+.navalu li:hover{
+	background-color:#46468c;
+}
+
+.navdoc a{
+  display: block; 
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+
+.navdoc li{
+	background-color:#575796;
+
+}
+
+.navdoc li:hover{
+	background-color:#46468c;
+}
+/* botón cerrar sesion */
+
+.logout{
+	float:right;
+	text-decoration: none;
+	background-color:#0F0E2B;
+	color:white;
+    padding: 23px 16px;
+	font-weight:bold;
+}
+
+.logout:hover{
+background-color:#3c38ab ;
+cursor:pointer;
+
+
+}
+
+.usuario{
+color:white
+}
+
+
+
+.fondoGeneral{
+	background:url(img/fondoIniciarSesion.png);
+}
+
+
+
+
+
+
+
+
